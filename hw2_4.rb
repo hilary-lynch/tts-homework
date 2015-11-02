@@ -17,7 +17,6 @@ class Student
 	def where_are_you_from
 		puts @hometown
 	end
-
 end
 
 student1 = Student.new("Richard", "19", "Engineering", "Boston")
@@ -39,4 +38,3 @@ student4 = Student.new("Angela", "19", "Engineering", "Miami")
 student4.say_your_name
 student4.whats_your_major
 student4.where_are_you_from
-

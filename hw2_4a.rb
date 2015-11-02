@@ -21,7 +21,6 @@ class Students
 
 	def meeting
 		puts "Hello #{@name}. You are from: #{@hometown}. You are #{@age}-years-old, and are majoring in #{@major}."
-
 	end
 
 end
@@ -38,6 +37,5 @@ student4 = Students.new("Angela", "19", "Engineering", "Miami")
 students_arr.push(student4)
 
 students_arr.each do |student|
-	student.meeting 
+	student.meeting
 end
-

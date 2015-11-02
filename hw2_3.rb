@@ -14,6 +14,7 @@ def divide_it(num1, num2)
 	puts num1 / num2
 end
 
+
 puts "First number"
 num1 = gets.chomp.to_i
 puts "Second number"
@@ -23,4 +24,3 @@ add_it_up(num1,num2)
 subtract_it(num1, num2)
 multiply_it(num1, num2)
 divide_it(num1, num2)
-

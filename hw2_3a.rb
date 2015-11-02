@@ -16,7 +16,6 @@ def divide_it(num1, num2)
 	puts num1 / num2
 end
 
-
 #define the calculator
 def calculator(num1, num2, method)
 	case method
@@ -29,7 +28,7 @@ def calculator(num1, num2, method)
 	when "divide"
 		puts divide_it(num1,num2)
 	else
-		puts "That's not a valid operation"	
+		puts "That's not a valid operation"
 	end
 
 end

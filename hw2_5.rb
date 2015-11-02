@@ -16,7 +16,6 @@ class Students
 
 	def meeting
 		puts "Hello #{@name}. Your major is: #{@major}."
-
 	end
 
 end
@@ -39,6 +38,5 @@ end
 students_arr.pop
 
 students_arr.each do |student|
-	student.meeting 
+	student.meeting
 end
-

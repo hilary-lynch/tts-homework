@@ -18,7 +18,6 @@ elsif score <=79 && score >= 70
 elsif score <=69 && score >= 60
 	puts "With a score of #{score}, you scored a D."
 
-
 else
 	letter = "F"
 	puts "With a score of #{score}, you scored an F."
