@@ -1,10 +1,11 @@
+
 movements = []
 
 puts "Enter a move: (L)EFT, (R)IGHT, (F)ORWARD, (H)ISTORY, or (E)XIT: "
 next_move = gets.chomp.downcase
 
 while next_move != "e"
-	if next_move == "h" 
+	if next_move == "h"
 		puts "Your moves so far are:"
 		movements.each do |move|
 			puts move
@@ -17,4 +18,3 @@ while next_move != "e"
 end
 
 puts "Bye"
-

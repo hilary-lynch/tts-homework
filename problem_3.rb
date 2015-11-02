@@ -13,10 +13,9 @@ while attempt > 0
 		puts "Password: "
 		pw_attempt = gets.chomp.downcase
 
+
 	else
 		puts "Success"
 		attempt = 0
 	end
 end
-
-
