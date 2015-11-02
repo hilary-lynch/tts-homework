@@ -5,3 +5,4 @@ fruits_num = fruits.length
 puts "length: #{fruits_num}"
 
 puts fruits.shuffle
+

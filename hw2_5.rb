@@ -41,3 +41,4 @@ students_arr.pop
 students_arr.each do |student|
 	student.meeting 
 end
+

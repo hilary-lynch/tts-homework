@@ -40,3 +40,4 @@ students_arr.push(student4)
 students_arr.each do |student|
 	student.meeting 
 end
+

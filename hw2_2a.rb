@@ -8,3 +8,4 @@ while fruits_num > 0
 	fruits.pop
 	fruits_num -= 1
 end
+

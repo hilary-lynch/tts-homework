@@ -44,4 +44,5 @@ num2 = gets.chomp.to_i
 puts "What to you want to do?"
 method = gets.chomp.downcase
 
+
 calculator(num1, num2, method)
