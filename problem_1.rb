@@ -8,4 +8,5 @@ second_num = gets.chomp.to_i
 
 sum = first_num + second_num
 
+
 puts "The sum of the numbers #{first_num} and #{second_num} is #{sum}"

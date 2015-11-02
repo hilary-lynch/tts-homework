@@ -2,7 +2,6 @@ puts "What score did you get?"
 
 score = gets.chomp.to_i
 
-
 if score > 100 || score < 0
 	puts "Wrong score, try again."
 

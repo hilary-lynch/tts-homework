@@ -1,5 +1,4 @@
 movements = []
-
 puts "Enter a move: (L)EFT, (R)IGHT, (F)ORWARD, (H)ISTORY, or (E)XIT: "
 next_move = gets.chomp.downcase
 
